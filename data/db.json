@@ -1,0 +1,29 @@
+{
+  "blogs": [
+    {
+      "title": "dddd",
+      "id": "1"
+    },
+    {
+      "title": "fffff",
+      "id": "2"
+    }
+  ],
+
+  "banner": [
+    {
+      "info": "Business Cards For Every Occasion",
+      "title": "THE LARGEST SELECTION ANYWHERE",
+      "content": "Over 100 Paper Types & Specialized Finishes Extreme Custom Cards Is Our Specialty",
+      "img": "https://www.4over4.com/assets/images/homepage_images/slider/desktop/fbc_slider.png",
+      "id": 1
+    },
+    {
+      "info": "Business Cards For Every Occasion",
+      "title": "THE LARGEST SELECTION ANYWHERE",
+      "content": "Over 100 Paper Types & Specialized Finishes Extreme Custom Cards Is Our Specialty",
+      "img": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/slider/desktop/scratch_img.png",
+      "id": 2
+    }
+  ]
+}

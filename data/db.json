@@ -12,18 +12,141 @@
 
   "banner": [
     {
-      "info": "Business Cards For Every Occasion",
-      "title": "THE LARGEST SELECTION ANYWHERE",
-      "content": "Over 100 Paper Types & Specialized Finishes Extreme Custom Cards Is Our Specialty",
-      "img": "https://www.4over4.com/assets/images/homepage_images/slider/desktop/fbc_slider.png",
-      "id": 1
+      "id": 1,
+      "title": "Business Cards For  Every Occasion",
+      "subTitle": "THE LARGEST SELECTION ANYWHERE",
+      "text": "Over 100 Paper Types & Specialized Finishes Extreme Custom Cards Is Our Specialty",
+      "url": "https://www.4over4.com/assets/images/homepage_images/slider/desktop/fbc_slider.png"
     },
     {
-      "info": "Business Cards For Every Occasion",
-      "title": "THE LARGEST SELECTION ANYWHERE",
-      "content": "Over 100 Paper Types & Specialized Finishes Extreme Custom Cards Is Our Specialty",
-      "img": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/slider/desktop/scratch_img.png",
-      "id": 2
+      "id": 2,
+      "title": "Business Cards For Every Occasion",
+      "subTitle": "THE LARGEST SELECTION ANYWHERE",
+      "text": "Over 100 Paper Types & Specialized Finishes Extreme Custom Cards Is Our Specialty",
+      "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/slider/desktop/large_image.png"
+    },
+    {
+      "id": 3,
+      "title": "Business Cards For Every Occasion",
+      "subTitle": "THE LARGEST SELECTION ANYWHERE",
+      "text": "Over 100 Paper Types & Specialized Finishes Extreme Custom Cards Is Our Specialty",
+      "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/slider/desktop/scratch_img.png"
+    },
+    {
+      "id": 4,
+      "title": "Business Cards For Every Occasion",
+      "subTitle": "THE LARGEST SELECTION ANYWHERE",
+      "text": "Over 100 Paper Types & Specialized Finishes Extreme Custom Cards Is Our Specialty",
+      "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/slider/desktop/mej-img.png"
+    }
+  ],
+
+  "featuredProducts": [
+    {
+      "id": 1,
+      "featuredProductsItem": [
+        {
+          "id": 1,
+          "width": 0.5,
+          "title": "Business Cards",
+          "price": "200$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/Business-cards-Featured.png",
+          "shopNowButton": true
+        },
+        {
+          "id": 2,
+          "width": 0.25,
+          "title": "Cards",
+          "price": "300$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/10.png",
+          "shopNowButton": false
+        },
+        {
+          "id": 3,
+          "width": 0.25,
+          "title": "Business ",
+          "price": "400$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/9.png",
+          "shopNowButton": false
+        },
+        {
+          "id": 4,
+          "width": 0.25,
+          "title": "Business Cards",
+          "price": "500$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/10.png",
+          "shopNowButton": false
+        },
+        {
+          "id": 5,
+          "width": 0.25,
+          "title": "Stickers",
+          "price": "600$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/9.png",
+          "shopNowButton": false
+        },
+        {
+          "id": 6,
+          "width": 0.5,
+          "title": "Postcards",
+          "price": "700$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/12.png",
+          "shopNowButton": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "featuredProductsItem": [
+        {
+          "id": 1,
+          "width": 0.5,
+          "title": "Business Cards",
+          "price": "10$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/Business-cards-Featured.png",
+          "shopNowButton": true
+        },
+        {
+          "id": 2,
+          "width": 0.25,
+          "title": "Cards",
+          "price": "30$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/10.png",
+          "shopNowButton": false
+        },
+        {
+          "id": 3,
+          "width": 0.25,
+          "title": "Business ",
+          "price": "70$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/9.png",
+          "shopNowButton": false
+        },
+        {
+          "id": 4,
+          "width": 0.25,
+          "title": "Business Cards",
+          "price": "90$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/10.png",
+          "shopNowButton": false
+        },
+        {
+          "id": 5,
+          "width": 0.25,
+          "title": "Stickers",
+          "price": "50$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/9.png",
+          "shopNowButton": false
+        },
+        {
+          "id": 6,
+          "width": 0.5,
+          "title": "Postcards",
+          "price": "66$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/12.png",
+          "shopNowButton": false
+        }
+      ]
     }
   ]
 }

@@ -29,5 +29,6 @@ module.exports = {
       1,
       { forbidDefaultForRequired: true, ignoreFunctionalComponents: true },
     ],
+    'no-plusplus': 'off',
   },
 };

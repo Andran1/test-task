@@ -1,0 +1,33 @@
+.itemBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  cursor: pointer;
+
+  .leftBlock {
+    display: flex;
+
+    .iconWrapper {
+      margin-left: 5px;
+    }
+  }
+
+  .boldTitle {
+    color: #4c4c4c;
+    font-weight: bold;
+  }
+
+  .title {
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  .newIcon {
+    padding: 2px 12px;
+    background: #81c719;
+    border-radius: 12px;
+    font-size: 13px;
+    color: white;
+  }
+}

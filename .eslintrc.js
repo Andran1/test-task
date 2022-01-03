@@ -30,5 +30,7 @@ module.exports = {
       { forbidDefaultForRequired: true, ignoreFunctionalComponents: true },
     ],
     'no-plusplus': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/jsx-no-comment-textnodes': 'off',
   },
 };

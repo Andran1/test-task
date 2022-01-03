@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  FeaturedProductItem,
-  IFeaturedProductItemProps,
-} from './featured-products-wrapper/featured-product-item/featured-product-item';
+import { ProductItem, IFeaturedProductItemProps } from './product-item/product-item';
 
 import styles from './featured-products.module.scss';
 
@@ -11,7 +8,7 @@ export interface IFeaturedProductsProps {
   featuredProductsItem: IFeaturedProductItemProps[];
 }
 
-interface IFeaturedProductsPropsItem {
+export interface IFeaturedProductsPropsItem {
   data: IFeaturedProductsProps;
 }
 
@@ -24,12 +21,12 @@ export const FeaturedProducts: React.FC<IFeaturedProductsPropsItem> = ({ data })
     <div className={styles.featuredProductItemWrapper}>
       <div className={styles.rowContainer}>
         {upRowData.map((item: IFeaturedProductItemProps) => {
-          return <FeaturedProductItem key={item.id} data={item} />;
+          return <ProductItem key={item.id} data={item} />;
         })}
       </div>
       <div className={styles.rowContainer}>
         {downRowData.map((item: IFeaturedProductItemProps) => {
-          return <FeaturedProductItem key={item.id} data={item} />;
+          return <ProductItem key={item.id} data={item} />;
         })}
       </div>
     </div>

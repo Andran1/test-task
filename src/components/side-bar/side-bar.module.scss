@@ -2,6 +2,17 @@
   width: 30%;
   box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.21);
   border-radius: 3px;
-  background-color: gold;
-  margin-top: 20px;
+
+  .sideBarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 20px 10px;
+
+    .title {
+      font-weight: 500;
+      font-size: 24px;
+      color: #23c2a8;
+    }
+  }
 }

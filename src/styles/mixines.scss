@@ -1,0 +1,5 @@
+@mixin icon-style($url, $repeat, $center) {
+  background: url($url);
+  background-repeat: $repeat;
+  background-position: $center;
+}

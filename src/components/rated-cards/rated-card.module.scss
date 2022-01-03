@@ -1,0 +1,12 @@
+.card {
+  width: 250px;
+
+  .ratingBlock {
+    display: flex;
+    align-items: center;
+
+    .reviews {
+      margin-left: 10px;
+    }
+  }
+}

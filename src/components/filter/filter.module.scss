@@ -1,0 +1,12 @@
+.warpper {
+  display: flex;
+  background-color: white;
+  margin: 0;
+
+  .item {
+    font-weight: 500;
+    font-size: 13px;
+    margin-right: 10px;
+    text-align: center;
+  }
+}

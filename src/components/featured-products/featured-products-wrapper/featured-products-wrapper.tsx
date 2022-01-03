@@ -1,21 +1,17 @@
 import React from 'react';
 import { ECurentSectionType } from '../../../enums';
+import { getJsonData } from '../../../hooks/get-json-data';
 import { CustomCarousel } from '../../custom-carusel/custom-carusel';
 
 export const FeaturedProductsWrapper: React.FC = () => {
-  const [d, setD] = React.useState<any[]>([]);
-
-  React.useEffect(() => {
-    fetch('http://localhost:8000/featuredProducts')
-      .then((response) => response.json())
-      .then((data) => setD(data));
-  }, []);
+  const dto = getJsonData('featuredProducts');
   return (
     <CustomCarousel
-      dto={d}
+      dto={dto}
       showArrows
       sectionType={ECurentSectionType.FEATURED_PRODUCTS}
       pagination={false}
+      title="Featured Products"
     />
   );
 };

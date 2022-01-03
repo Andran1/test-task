@@ -3,15 +3,15 @@ import { ECurentSectionType } from '../../../enums';
 import { getJsonData } from '../../../hooks/get-json-data';
 import { CustomCarousel } from '../../custom-carusel/custom-carusel';
 
-export const BannerWrapper: React.FC = () => {
-  const dto = getJsonData('banner');
-
+export const RatedCardsWrapper: React.FC = () => {
+  const dto = getJsonData('ratedCards');
   return (
     <CustomCarousel
       dto={dto}
-      sectionType={ECurentSectionType.BANNER}
-      showArrows={false}
-      pagination
+      showArrows
+      sectionType={ECurentSectionType.RATED_CARDS}
+      pagination={false}
+      title="Top Rated"
     />
   );
 };

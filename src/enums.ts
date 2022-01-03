@@ -1,9 +1,4 @@
-export enum MarginType {
-    'XSMALL' = 'xs',
-    'SMALL' = 's',
-    'MEDIUM' = 'm',
-    'LARGE' = 'l',
-  }
+
 
   export enum  ArrowType  {
     PREV= 'PREV',
@@ -18,6 +13,9 @@ export enum MarginType {
   
   export enum ECurentSectionType {
     'BANNER' = 'banner',
-    "FEATURED_PRODUCTS"="featuredProducts"
+    'FEATURED_PRODUCTS'='featuredProducts',
+    'NEW_PRODUCTS'='newProducts',
+    'RATED_CARDS'='ratedCards'
+
   }
   

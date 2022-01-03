@@ -4,22 +4,25 @@ import { ArrowType, ECurentSectionType } from '../../enums';
 import { Banner, IBannerProps } from '../banner/banner';
 import prev from './icon/arrow-prev.svg';
 import next from './icon/arrow-next.svg';
+import { FeaturedProducts, IFeaturedProductsProps } from '../featured-products/featured-products';
+import { NewProducts } from '../new-products/new-products';
+import { IRatedCardProps, RatedCards } from '../rated-cards/rated-cards/rated-cards';
 
 import styles from './custom-carusel.module.scss';
-import { FeaturedProducts, IFeaturedProductsProps } from '../featured-products/featured-products';
 
 type RenderArrowProps = {
   type: 'PREV' | 'NEXT';
   onClick: () => void;
   isEdge: boolean;
 };
-type IcarouselItemElementProps = any & IBannerProps & IFeaturedProductsProps;
+type IcarouselItemElementProps = (any & IBannerProps) | IFeaturedProductsProps | IRatedCardProps;
 
 interface IWrapperCarouselProps {
   dto?: IcarouselItemElementProps[];
   sectionType?: string;
   showArrows: boolean;
   pagination: boolean;
+  title?: string;
 }
 
 export const CustomCarousel: React.FC<IWrapperCarouselProps> = ({
@@ -27,6 +30,7 @@ export const CustomCarousel: React.FC<IWrapperCarouselProps> = ({
   sectionType,
   showArrows,
   pagination,
+  title,
 }) => {
   const getCarouselItem = (
     carouselItemElement: IcarouselItemElementProps,
@@ -36,6 +40,10 @@ export const CustomCarousel: React.FC<IWrapperCarouselProps> = ({
         return <Banner data={carouselItemElement} />;
       case ECurentSectionType.FEATURED_PRODUCTS:
         return <FeaturedProducts data={carouselItemElement} />;
+      case ECurentSectionType.NEW_PRODUCTS:
+        return <NewProducts data={carouselItemElement} />;
+      case ECurentSectionType.RATED_CARDS:
+        return <RatedCards data={carouselItemElement} />;
       default:
         return null;
     }
@@ -58,6 +66,7 @@ export const CustomCarousel: React.FC<IWrapperCarouselProps> = ({
 
   return (
     <div className={styles.block}>
+      <h2 className={styles.title}>{title}</h2>
       <Carousel
         isRTL={false}
         showArrows={showArrows}

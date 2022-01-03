@@ -1,5 +1,8 @@
 .homeBlock {
-  background-color: red;
   display: flex;
   margin-top: 50px;
+
+  .rightBlock {
+    width: 100%;
+  }
 }

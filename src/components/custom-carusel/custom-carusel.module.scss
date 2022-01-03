@@ -2,6 +2,10 @@
   position: relative;
   width: 100%;
 
+  .title {
+    margin-left: 10px;
+  }
+
   .btnPrev {
     display: flex;
     justify-content: center;
@@ -11,7 +15,7 @@
     border: 1px solid #d0d0d0;
     border-radius: 3px;
     position: absolute;
-    top: -55px;
+    top: 0;
     right: 50px;
     z-index: 1;
   }
@@ -25,7 +29,7 @@
     border: 1px solid #d0d0d0;
     border-radius: 3px;
     position: absolute;
-    top: -55px;
+    top: 0;
     right: 10px;
     z-index: 1;
   }

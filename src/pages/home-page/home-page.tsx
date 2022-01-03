@@ -1,10 +1,12 @@
 import React from 'react';
 import { Block } from '../../components/block/block';
 import { BannerWrapper } from '../../components/banner/banner-wrapper/banner-wrapper';
-
-import styles from './home-page.module.scss';
 import { FeaturedProductsWrapper } from '../../components/featured-products/featured-products-wrapper/featured-products-wrapper';
 import { SideBar } from '../../components/side-bar/side-bar';
+import { NewPraductsWrapper } from '../../components/new-products/new-praducts-wrapper/new-praducts-wrapper';
+
+import styles from './home-page.module.scss';
+import { RatedCardsWrapper } from '../../components/rated-cards/rated-cards-wrapper/rated-cards-wrapper';
 
 export const HomePage: React.FC = () => {
   return (
@@ -13,7 +15,11 @@ export const HomePage: React.FC = () => {
       <Block>
         <div className={styles.homeBlock}>
           <SideBar />
-          <FeaturedProductsWrapper />
+          <div className={styles.rightBlock}>
+            <FeaturedProductsWrapper />
+            <NewPraductsWrapper />
+            <RatedCardsWrapper />
+          </div>
         </div>
       </Block>
     </>

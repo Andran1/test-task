@@ -55,7 +55,7 @@
         },
         {
           "id": 2,
-          "width": 0.25,
+          "width": 0.24,
           "title": "Cards",
           "price": "300$",
           "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/10.png",
@@ -63,7 +63,7 @@
         },
         {
           "id": 3,
-          "width": 0.25,
+          "width": 0.24,
           "title": "Business ",
           "price": "400$",
           "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/9.png",
@@ -71,7 +71,7 @@
         },
         {
           "id": 4,
-          "width": 0.25,
+          "width": 0.24,
           "title": "Business Cards",
           "price": "500$",
           "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/10.png",
@@ -79,7 +79,7 @@
         },
         {
           "id": 5,
-          "width": 0.25,
+          "width": 0.24,
           "title": "Stickers",
           "price": "600$",
           "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/9.png",
@@ -108,7 +108,7 @@
         },
         {
           "id": 2,
-          "width": 0.25,
+          "width": 0.24,
           "title": "Cards",
           "price": "30$",
           "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/10.png",
@@ -116,7 +116,7 @@
         },
         {
           "id": 3,
-          "width": 0.25,
+          "width": 0.24,
           "title": "Business ",
           "price": "70$",
           "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/9.png",
@@ -124,7 +124,7 @@
         },
         {
           "id": 4,
-          "width": 0.25,
+          "width": 0.24,
           "title": "Business Cards",
           "price": "90$",
           "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/10.png",
@@ -132,7 +132,7 @@
         },
         {
           "id": 5,
-          "width": 0.25,
+          "width": 0.24,
           "title": "Stickers",
           "price": "50$",
           "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/9.png",
@@ -145,6 +145,311 @@
           "price": "66$",
           "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/12.png",
           "shopNowButton": false
+        }
+      ]
+    }
+  ],
+
+  "newProducts": [
+    {
+      "id": 1,
+      "newProductsItem": [
+        {
+          "id": 1,
+          "width": 0.5,
+          "title": "Business Cards",
+          "price": "200$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/Business-cards-Featured.png",
+          "shopNowButton": true
+        },
+        {
+          "id": 2,
+          "width": 0.24,
+          "title": "Cards",
+          "price": "300$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/10.png",
+          "shopNowButton": false
+        },
+        {
+          "id": 3,
+          "width": 0.24,
+          "title": "Business ",
+          "price": "400$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/9.png",
+          "shopNowButton": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "newProductsItem": [
+        {
+          "id": 1,
+          "width": 0.5,
+          "title": "Business Cards",
+          "price": "10$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/Business-cards-Featured.png",
+          "shopNowButton": true
+        },
+        {
+          "id": 2,
+          "width": 0.24,
+          "title": "Cards",
+          "price": "30$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/10.png",
+          "shopNowButton": false
+        },
+        {
+          "id": 3,
+          "width": 0.24,
+          "title": "Business ",
+          "price": "70$",
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/9.png",
+          "shopNowButton": false
+        }
+      ]
+    }
+  ],
+  "ratedCards": [
+    {
+      "id": 1,
+      "cards": [
+        {
+          "id": 1,
+          "title": "Business Cards",
+          "price": "200$",
+          "rating": 2,
+          "reviews": 65,
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/Business-cards-Featured.png"
+        },
+        {
+          "id": 2,
+          "title": "Cards",
+          "price": "300$",
+          "rating": 3,
+          "reviews": 655,
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/10.png"
+        },
+        {
+          "id": 3,
+          "title": "Business ",
+          "price": "400$",
+          "rating": 4,
+          "reviews": 677,
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/9.png"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "cards": [
+        {
+          "id": 1,
+          "title": "Business Cards",
+          "price": "10$",
+          "rating": 4,
+          "reviews": 99,
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/Business-cards-Featured.png"
+        },
+        {
+          "id": 2,
+          "title": "Cards",
+          "price": "30$",
+          "rating": 1,
+          "reviews": 99,
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/10.png"
+        },
+        {
+          "id": 3,
+          "title": "Business ",
+          "price": "70$",
+          "rating": 5,
+          "reviews": 898,
+          "url": "https://storage.googleapis.com/4over4-shop/assets/images/homepage_images/featured/9.png"
+        }
+      ]
+    }
+  ],
+
+  "sidBarData": [
+    {
+      "title": false,
+      "id": 1,
+      "name": "Adhesive Vinyls ",
+      "iconType": "",
+      "isNotification": true,
+      "points": [
+        {
+          "id": 1,
+          "name": "point_1"
+        },
+        {
+          "id": 2,
+          "name": "point_2"
+        }
+      ]
+    },
+    {
+      "title": true,
+      "id": 2,
+      "name": " Aluminum Signs",
+      "iconType": "banners",
+      "isNotification": false,
+      "points": [
+        {
+          "id": 1,
+          "systemName": "point 3",
+          "userName": "город Елабуга, 8 Марта, 2 кв 1"
+        },
+        {
+          "id": 2,
+          "systemName": "pont 4",
+          "userName": "город Елабуга, 8 Марта, 2 кв 1"
+        }
+      ]
+    },
+    {
+      "title": false,
+      "id": 3,
+      "name": "Adhesive Vinyls ",
+      "iconType": "",
+      "isNotification": false,
+      "points": [
+        {
+          "id": 1,
+          "name": "point_1"
+        },
+        {
+          "id": 2,
+          "name": "point_2"
+        }
+      ]
+    },
+    {
+      "title": true,
+      "id": 4,
+      "name": " Aluminum Signs",
+      "iconType": "banners",
+      "isNotification": false,
+      "points": [
+        {
+          "id": 1,
+          "systemName": "point 3",
+          "userName": "город Елабуга, 8 Марта, 2 кв 1"
+        },
+        {
+          "id": 2,
+          "systemName": "pont 4",
+          "userName": "город Елабуга, 8 Марта, 2 кв 1"
+        }
+      ]
+    },
+    {
+      "title": false,
+      "id": 5,
+      "name": "Adhesive Vinyls ",
+      "iconType": "",
+      "isNotification": true,
+      "points": [
+        {
+          "id": 1,
+          "name": "point_1"
+        },
+        {
+          "id": 2,
+          "name": "point_2"
+        }
+      ]
+    },
+    {
+      "title": true,
+      "id": 6,
+      "name": " Aluminum Signs",
+      "iconType": "banners",
+      "isNotification": false,
+      "points": [
+        {
+          "id": 1,
+          "systemName": "point 3",
+          "userName": "город Елабуга, 8 Марта, 2 кв 1"
+        },
+        {
+          "id": 2,
+          "systemName": "pont 4",
+          "userName": "город Елабуга, 8 Марта, 2 кв 1"
+        }
+      ]
+    },
+    {
+      "title": false,
+      "id": 7,
+      "name": "Adhesive Vinyls ",
+      "iconType": "",
+      "isNotification": true,
+      "points": [
+        {
+          "id": 1,
+          "name": "point_1"
+        },
+        {
+          "id": 2,
+          "name": "point_2"
+        }
+      ]
+    },
+    {
+      "title": true,
+      "id": 8,
+      "name": " Aluminum Signs",
+      "iconType": "banners",
+      "isNotification": false,
+      "points": [
+        {
+          "id": 1,
+          "systemName": "point 3",
+          "userName": "город"
+        },
+        {
+          "id": 2,
+          "systemName": "pont 4",
+          "userName": "город "
+        }
+      ]
+    },
+    {
+      "title": false,
+      "id": 9,
+      "name": "Adhesive Vinyls ",
+      "iconType": "",
+      "isNotification": false,
+      "points": [
+        {
+          "id": 1,
+          "name": "point_1"
+        },
+        {
+          "id": 2,
+          "name": "point_2"
+        }
+      ]
+    },
+    {
+      "title": true,
+      "id": 10,
+      "name": " Aluminum Signs",
+      "iconType": "banners",
+      "isNotification": false,
+      "points": [
+        {
+          "id": 1,
+          "systemName": "point 3",
+          "userName": "город "
+        },
+        {
+          "id": 2,
+          "systemName": "pont 4",
+          "userName": "город "
         }
       ]
     }
